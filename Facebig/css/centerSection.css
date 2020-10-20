@@ -1,0 +1,167 @@
+.centerSection {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 1000px);
+  padding-top: 20px;
+}
+.Post {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 7px;
+  padding: 8px 10px 8px 10px;
+  margin-bottom: 15px;
+}
+.newPost {
+  display: flex;
+  align-items: center;
+}
+.newPost img {
+  height: 28px;
+  width: 28px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.newPost .modalPost {
+  padding: 5px;
+  width: 100%;
+  border-radius: 20px;
+  background: rgb(236, 236, 236);
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+.newPost-menu {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.newPost-menu a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  padding: 10px;
+  flex-grow: 1;
+  justify-content: center;
+}
+.newPost-menu a:hover {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(192, 192, 192, 0.3);
+}
+.newPost-menu a i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.newPost-menu a p {
+  color: black;
+}
+
+.content {
+  background: white;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 5px 8px -5px rgba(0, 0, 0, 0.2);
+}
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.content-header .author {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.content-header .author img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.content-header .author .nameAndtime a {
+  color: black;
+  text-decoration: none;
+}
+.content-header .author .nameAndtime a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.content-header .author .nameAndtime a .time {
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+}
+.content-header .setting {
+  background: transparent;
+  padding: 4px 12px 4px 12px;
+  cursor: pointer;
+}
+.content-header .setting:hover {
+  background: rgba(192, 192, 192, 0.3);
+  border-radius: 20px;
+}
+.content-body {
+  padding: 4px 16px 8px 16px;
+}
+.content-image {
+  width: 100%;
+}
+.content .status-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.content .status-info a {
+  text-decoration: none;
+  color: black;
+}
+.content .status-info a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.content .content-menu {
+  margin: 5px;
+  display: flex;
+}
+.content .content-menu a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  padding: 10px;
+  flex-grow: 1;
+  justify-content: center;
+}
+.content .content-menu a:hover {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  padding: 10px;
+  flex-grow: 1;
+  justify-content: center;
+  background: rgba(192, 192, 192, 0.3);
+  border-radius: 5px;
+}
+.content .content-menu a i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.content .content-menu a {
+  color: black;
+}
+
+@media  only screen and (max-width: 1440px){
+  .centerSection {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 800px);
+    padding-top: 20px;
+  }
+}
